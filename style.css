@@ -26,3 +26,40 @@ body {
     border-radius: 10px;
     background-image: linear-gradient(red, tomato);
 }
+
+.donate-today {
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.flexible-taka {
+    display: flex;
+    font-size: 20px;
+    padding-left: 350px;
+}
+
+.amount-design {
+    padding: 20px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+}
+
+#design-different {
+    color: tomato;
+    padding: 18px 18px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+}
+
+#other-amount-text {
+    color: #DADADA;
+}
+
+.donate-today hr {
+    text-align: center;
+    width: 765px;
+}
