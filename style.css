@@ -1,149 +1,170 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-}
-
-.header-section {
-    color: white;
-    padding-top: 140px;
-    padding-bottom: 140px;
-    background-image: url(images/donation13.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-}
-
-.header-section h1 {
-    font-size: 50px;
-    font-weight: 900;
-}
-
-.link-button {
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    padding: 20px 35px;
-    border-radius: 10px;
-    background-image: linear-gradient(red, tomato);
-}
-
-.donate-today {
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.font-design {
-    font-size: 40px;
-    font-weight: 900;
-}
-
-.flexible-taka {
-    font-size: 20px;
-    font-weight: 900;
-    display: flex;
-    padding-left: 350px;
-}
-
-.amount-design {
-    padding: 20px 20px;
-    border-radius: 5px;
-    margin-left: 20px;
-    background-color: #FAFAFA;
-}
-
-#design-different {
-    color: tomato;
-    padding: 15px 15px;
-    margin-left: 20px;
-    border-radius: 5px;
-    border: 2px solid #FF5959;
-    background-color: #FFEEEE;
-}
-
-#other-amount-text {
-    color: #DADADA;
-}
-
-.donate-today hr {
-    text-align: center;
-    width: 765px;
-}
-
-.donation-plan-section {
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-}
-
-.plans-design {
-    display: flex;
-    text-align: left;
-}
-
-.plans-design img {
-    width: 10%;
-}
-
-.plans-background {
-    margin-left: 20px;
-    padding: 40px 20px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px gray;
-}
-
-#food-part {
-    background-color: #4F9DA6;
-}
-
-#shelter-part {
-    background-color: #FF5959;
-}
-
-#education-part {
-    background-color: lightblue;
-}
-
-.get-updates-section {
-    text-align: center;
-}
-
-.form-background {
-    height: 100px;
-    text-align: center;
-    padding-top: 70px;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-bottom: 120px;
-    background-color: aquamarine;
-}
-
-.button-design {
-    padding: 15px 30px;
-    margin: 0;
-    border: none;
-    border-radius: 5px;
-}
-
-.form-background input {
-    background-color: #DADADA;
-}
-
-.form-background button {
-    color: white;
-    background-color: tomato;
-}
-
-.footer-section {
-    color: white;
-    text-align: center;
-    background-color: black;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.footer-section h1 {
-    color: #FF5959;
-}
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+    }
+    
+    .header-section {
+        color: white;
+        padding-top: 140px;
+        padding-bottom: 140px;
+        background-image: url(images/donation13.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    
+    .header-section h1 {
+        font-size: 50px;
+        font-weight: 900;
+    }
+    
+    .link-button {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        padding: 20px 35px;
+        border-radius: 10px;
+        background-image: linear-gradient(red, tomato);
+    }
+    
+    .donate-today {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .font-design {
+        font-size: 40px;
+        font-weight: 900;
+    }
+    
+    .flexible-taka {
+        font-size: 20px;
+        font-weight: 900;
+        display: flex;
+        padding-left: 350px;
+    }
+    
+    .amount-design {
+        padding: 20px 20px;
+        border-radius: 5px;
+        margin-left: 20px;
+        background-color: #FAFAFA;
+    }
+    
+    #design-different {
+        color: tomato;
+        padding: 15px 15px;
+        margin-left: 20px;
+        border-radius: 5px;
+        border: 2px solid #FF5959;
+        background-color: #FFEEEE;
+    }
+    
+    #other-amount-text {
+        color: #DADADA;
+        width: 600px;
+        text-align: center;
+        padding: 10px;
+        border: none;
+        border-bottom: 2px solid gray;
+    }
+    
+    .donate-today hr {
+        text-align: center;
+        width: 765px;
+    }
+    
+    .donation-plan-section {
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .plans-design {
+        display: flex;
+        text-align: left;
+    }
+    
+    .plans-design img {
+        width: 10%;
+    }
+    
+    .plans-background {
+        margin-left: 20px;
+        padding: 40px 20px;
+        border-radius: 7px;
+        box-shadow: 5px 5px 10px gray;
+    }
+    
+    #food-part {
+        background-color: aquamarine;
+    }
+    
+    #shelter-part {
+        background-color: #FF5959;
+    }
+    
+    #education-part {
+        background-color: lightblue;
+    }
+    
+    .corporate-section {
+        text-align: center;
+        padding-bottom: 120px;
+    }
+    
+    .logo-flexing {
+        display: flex;
+        padding: 20px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    
+    .logo-flexing img {
+        width: 100%;
+    }
+    
+    .get-updates-section {
+        text-align: center;
+    }
+    
+    .form-background {
+        height: 100px;
+        text-align: center;
+        padding-top: 70px;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-bottom: 120px;
+        background-color: #FFF4D6;
+    }
+    
+    .button-design {
+        padding: 15px 30px;
+        margin: 0;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .form-background input {
+        background-color: #D9D9D9;
+    }
+    
+    .form-background button {
+        color: white;
+        background-color: #FF5959;
+    }
+    
+    .footer-section {
+        color: #D9DBE1;
+        text-align: center;
+        background-color: black;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .footer-section h1 {
+        color: #FF5959;
+    }
