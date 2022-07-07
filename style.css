@@ -127,6 +127,28 @@
         width: 100%;
     }
     
+    .form-styles {
+        font-size: 20px;
+        font-weight: 700;
+        background-color: #D9DBE1;
+        padding: 60px;
+        margin-bottom: 100px;
+    }
+    
+    .input-style {
+        text-align: left;
+        padding: 20px 400px;
+        border-radius: 5px;
+    }
+    
+    #submit-button {
+        color: white;
+        background-color: green;
+        font-weight: 900;
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+    
     .get-updates-section {
         text-align: center;
     }
